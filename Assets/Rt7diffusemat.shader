@@ -75,10 +75,11 @@ Shader "Unlit/SingleColor"
 		return (noise.x + noise.y) * 0.0025;
 	}
 
-	//returnerer en vec3 med tre 'random' floats mellom 0 og 1. Normal som tas inn er allerede rett vei
-	vec3 random_on_hemisphere()
+	//returnerer en random, normalisert vektor
+	vec3 random_on_hemisphere(vec3 normal)
 	{
-		return normalize(vec3(rand(), rand(), rand()));
+		vec3 v = normalize(vec3(rand(), rand(), rand()));
+		return (dot(v, normal) > 0.0) ? v : -v;
 	}
 
 	class ray
@@ -175,7 +176,7 @@ Shader "Unlit/SingleColor"
 		while (world_hit(r, 0, infinity, rec) && _maxbounces > 0)
 		{
 			_maxbounces--;
-			vec3 randdir = rec.p + rec.normal + random_on_hemisphere(); 
+			vec3 randdir = rec.p + rec.normal + random_on_hemisphere(rec.normal); 
 			r.make(rec.p, randdir - rec.p);
 			accumCol *= 0.5;
 		}

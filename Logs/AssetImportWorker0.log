@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2023.2/release' branch; Version is '2023.2.4f1 (3a7eb0602d92) revision 3833520'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/glue/DAT253/lecture9UnityCodeStartRaytracer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62364
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/glue/DAT253/lecture9UnityCodeStartRaytracer
+C:/Users/glue/DAT253/lecture9UnityCodeStartRaytracer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14244] Host "[IP] 158.37.224.53 [Port] 0 [Flags] 2 [Guid] 769483480 [EditorId] 769483480 [Version] 1048832 [Id] WindowsEditor(7,Hardwin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14244] Host "[IP] 158.37.224.53 [Port] 0 [Flags] 2 [Guid] 769483480 [EditorId] 769483480 [Version] 1048832 [Id] WindowsEditor(7,Hardwin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/glue/DAT253/lecture9UnityCodeStartRaytracer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2799
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003273 seconds.
+- Loaded All Assemblies, in  0.634 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 1003ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (219ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (371ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (24ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Loaded All Assemblies, in  0.531 seconds
+Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.422 seconds
+Domain Reload Profiling: 951ms
+	BeginReloadAssembly (332ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (9ms)
+			BuildScriptInfoCaches (3ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (423ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 381 unused Assets / (77.3 KB). Loaded Objects now: 959.
+Memory consumption went from 94.8 MB to 94.7 MB.
+Total: 3.250400 ms (FindLiveObjects: 0.080900 ms CreateObjectMapping: 0.018200 ms MarkObjects: 3.016300 ms  DeleteObjects: 0.133200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 214955.369994 seconds.
+  path: Assets/material.mat
+  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb37f87fe9aa233dcaba88516cf872cb') in 0.1162455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 275.493281 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03f9cd6bc44157c9fe77c3af9c313c1a') in 0.0010177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.240434 seconds.
+  path: Assets/material.mat
+  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb70ef81a5ed86810dbef5b993251612') in 0.4659153 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4297.512621 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '366eb7d8ccc22311d31233edf27cdf0e') in 0.0258955 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.974937 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a8bf5c3faec0672574a3c25f056124e') in 0.0014158 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 411.053999 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b3fe0f4dac85491ceb1bbcf91d88a4') in 0.0012485 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.055305 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f14ee274e5930884947a89000dd6562') in 0.0007926 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.182966 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c52bcba923d8ff37030e355b9db9e5da') in 0.0015242 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.134845 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de0da187e64358058f64beff8e08cc2') in 0.0016449 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.946337 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '407ba200226a567acd63bccad86178d6') in 0.0009321 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.058896 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12a317a741e5d9bbbbcf61e69fa82693') in 0.0013376 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.029540 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a91f72cc085e2dec796d8b25927eb6c') in 0.0017183 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.412259 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9349175b3c3f3a6b281162edcebdca5') in 0.0019454 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.221237 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a5cbb4ebedd00b8107d03bcc332fc37') in 0.0008874 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.351943 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74f7119b24db0c34a2a09a8e4ce01e06') in 0.000868 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.362369 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed160d51812e298efe902ea1e7b5f442') in 0.0009811 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.262709 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70bc1afabce1a7b44d4f1ff5acc067d5') in 0.0010867 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2598.210751 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90f5bba0c4d330e980be3e2911970eed') in 0.0015384 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.359418 seconds.
+  path: Assets/material.mat
+  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fccda44a691c79df3d38b59f2ececd6') in 0.1264432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.791203 seconds.
+  path: Assets/Rt7diffusemat 1.shader
+  artifactKey: Guid(d77baa1c6d5ac9a42bc9c8d48f596305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat 1.shader using Guid(d77baa1c6d5ac9a42bc9c8d48f596305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff3b3a93c6ff18cab8dfd5bc6559e025') in 0.0011903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

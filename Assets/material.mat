@@ -83,7 +83,7 @@ Material:
     - _floatchooser: 0
     - _floatxaxis: 0
     - _maxbounces: 100
-    - _raysprpixel: 81
+    - _raysprpixel: 13
     - _refractionIndex: 0
     - bl: 2
     m_Colors:
