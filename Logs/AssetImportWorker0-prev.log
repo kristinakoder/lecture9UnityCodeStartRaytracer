@@ -15,7 +15,7 @@ C:/Users/glue/DAT253/lecture9UnityCodeStartRaytracer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64249
+56525
 -job-worker-count
 7
 -background-job-worker-count
@@ -58,12 +58,12 @@ C:/Users/glue/DAT253/lecture9UnityCodeStartRaytracer
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6952] Host "[IP] 158.37.227.109 [Port] 0 [Flags] 2 [Guid] 4171304710 [EditorId] 4171304710 [Version] 1048832 [Id] WindowsEditor(7,Hardwin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [6952] Host "[IP] 158.37.227.109 [Port] 0 [Flags] 2 [Guid] 4171304710 [EditorId] 4171304710 [Version] 1048832 [Id] WindowsEditor(7,Hardwin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22748] Host "[IP] 158.37.224.117 [Port] 0 [Flags] 2 [Guid] 2561642270 [EditorId] 2561642270 [Version] 1048832 [Id] WindowsEditor(7,Hardwin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22748] Host "[IP] 158.37.224.117 [Port] 0 [Flags] 2 [Guid] 2561642270 [EditorId] 2561642270 [Version] 1048832 [Id] WindowsEditor(7,Hardwin) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -94,42 +94,42 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002906 seconds.
-- Loaded All Assemblies, in  0.424 seconds
+Registered in 0.003775 seconds.
+- Loaded All Assemblies, in  7.351 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.435 seconds
-Domain Reload Profiling: 857ms
-	BeginReloadAssembly (148ms)
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 7636ms
+	BeginReloadAssembly (5432ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (146ms)
+	RebuildCommonClasses (332ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (1533ms)
+		LoadAssemblies (5430ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (1531ms)
+			TypeCache.Refresh (1530ms)
+				TypeCache.ScanAssembly (982ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (435ms)
+	FinalizeReload (287ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (379ms)
+		SetupLoadedEditorAssemblies (248ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -150,442 +150,569 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Loaded All Assemblies, in  0.648 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 0.10 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.782 seconds
-Domain Reload Profiling: 1429ms
-	BeginReloadAssembly (410ms)
+- Finished resetting the current domain, in  0.358 seconds
+Domain Reload Profiling: 789ms
+	BeginReloadAssembly (264ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (212ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (36ms)
-			TypeCache.Refresh (29ms)
-				TypeCache.ScanAssembly (20ms)
-			BuildScriptInfoCaches (3ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (782ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (464ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (353ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 381 unused Assets / (92.5 KB). Loaded Objects now: 958.
-Memory consumption went from 94.5 MB to 94.4 MB.
-Total: 6.913900 ms (FindLiveObjects: 0.095400 ms CreateObjectMapping: 0.025300 ms MarkObjects: 6.568500 ms  DeleteObjects: 0.223000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 352226.219038 seconds.
-  path: Assets/Raytracer6.shader
-  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raytracer6.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0825f05326f0d90f7cd87c4f6cfe3672') in 0.0491637 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.027808 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd4a9fecf6096c19e16c4b0aed13a11') in 0.7257873 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1464.233498 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e706c1f247d05909bf1b52a99bc5eac1') in 0.0901476 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.566543 seconds.
-  path: Assets/Raytracer6.shader
-  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raytracer6.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd5cbef6e1891930fd739c222f54f4fb') in 0.0007471 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.900523 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c1b30d0b8b473ca9f9f02ff5176833c') in 0.0687094 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.363888 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84203b6529ee31622809e4d53b60373a') in 0.0429152 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 526.587787 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '438f7a0bf557dc8b235c50137214c2b7') in 0.0934011 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.287924 seconds.
-  path: Assets/Raytracer6.shader
-  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raytracer6.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '890e5cb075c940b5c6452064d42fc600') in 0.0011142 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.984127 seconds.
-  path: Assets/Raytracer6.shader
-  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raytracer6.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dfba54cf38e3d878ab7456ce2426a29') in 0.0008253 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.123070 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0795df9954fa09ddd3651fc583adf0fb') in 0.0414797 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2048.526571 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ae0c4e2d483e332480f3783e202a8d0') in 0.1020371 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.642663 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c5c80ba1aecfa6a03491233dad18415') in 0.0906885 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2442.914204 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '269395bd19ebdddbc3c8fb87a62e2ec2') in 0.0746292 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.592376 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b79056eb191c804c230b94d251d947f') in 0.1139771 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.587724 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b65af9be82c600c0df8a62327d128525') in 0.0638781 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.122887 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2a5431a7661e09ab70cc0d1dc4e4749') in 0.0809847 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.448195 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b505d53ff5fa7434ad1d8e0a751e4e86') in 0.4327965 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 967.955060 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9be2192fb36f09a4ef94589c6960f134') in 0.370593 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Loaded All Assemblies, in  0.469 seconds
-Refreshing native plugins compatible for Editor in 0.14 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.357 seconds
-Domain Reload Profiling: 825ms
-	BeginReloadAssembly (254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (31ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (244ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (161ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (8ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (7ms)
+			BuildScriptInfoCaches (2ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (358ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (195ms)
+		SetupLoadedEditorAssemblies (216ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (17ms)
-			ProcessInitializeOnLoadAttributes (150ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (23ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.15 ms, found 0 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 379 unused Assets / (24.9 KB). Loaded Objects now: 1000.
-Memory consumption went from 93.7 MB to 93.6 MB.
-Total: 3.772100 ms (FindLiveObjects: 0.087000 ms CreateObjectMapping: 0.024100 ms MarkObjects: 3.483800 ms  DeleteObjects: 0.176000 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-========================================================================
-Received Import Request.
-  Time since last request: 185.523441 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71cfc1236b2ab942a2d2a534b771d642') in 0.1250538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 381 unused Assets / (74.4 KB). Loaded Objects now: 960.
+Memory consumption went from 95.0 MB to 95.0 MB.
+Total: 2.911300 ms (FindLiveObjects: 0.066600 ms CreateObjectMapping: 0.015500 ms MarkObjects: 2.645000 ms  DeleteObjects: 0.182700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.987421 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f74e5e0a97a6cf37541e02d8a3fe8441') in 0.0959775 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 761.423237 seconds.
-  path: Assets/material.mat
-  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f459445495e11740a61aa07ac432ee58') in 0.0607825 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.663104 seconds.
-  path: Assets/Raytracer6.shader
-  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raytracer6.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86b29c60dee60fb1f05801c5783a857c') in 0.0007031 seconds
+  Time since last request: 127061.525664 seconds.
+  path: Assets/Raytracer5.shader
+  artifactKey: Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raytracer5.shader using Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48fc3563cca14e95a6693f4b7adb3522') in 0.0180601 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.657399 seconds.
-  path: Assets/Raytracer6 1.shader
-  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raytracer6 1.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '104bfb88fd303a6c8f2e51c7d4267915') in 0.001153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 2006.432047 seconds.
+  path: Assets/Rt0green.shader
+  artifactKey: Guid(6630806745dd5144cb45fe09e4bdb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt0green.shader using Guid(6630806745dd5144cb45fe09e4bdb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a235f5a423e17bb6aa3007ba093fa54a') in 0.0015272 seconds
+Number of updated asset objects reloaded before import = 3Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.006699 seconds.
-  path: Assets/Raytracer7.shader
+  Time since last request: 20.283986 seconds.
+  path: Assets/Rt1redgreen.shader
+  artifactKey: Guid(a72f071cbdeb06c499490613c8d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt1redgreen.shader using Guid(a72f071cbdeb06c499490613c8d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c483a169d03fb68d4ad5086da166eddb') in 0.0009167 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.134628 seconds.
+  path: Assets/Raytracer2.shader
+  artifactKey: Guid(d03fa3b2335e1c04986c6d7975871278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raytracer2.shader using Guid(d03fa3b2335e1c04986c6d7975871278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fd2ebd9300d8481e655e272115f86d3') in 0.000679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.604761 seconds.
+  path: Assets/Rt2sky.shader
+  artifactKey: Guid(d03fa3b2335e1c04986c6d7975871278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt2sky.shader using Guid(d03fa3b2335e1c04986c6d7975871278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '309a5915218922db0d2f50684fb5fa67') in 0.0008984 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.186581 seconds.
+  path: Assets/Rt3redcircle.shader
+  artifactKey: Guid(4f748360cdec75142b9ca8c9adffeb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt3redcircle.shader using Guid(4f748360cdec75142b9ca8c9adffeb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '836386fefb3ea455d1bea30d907ac945') in 0.000752 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.359024 seconds.
+  path: Assets/Rt4.shader
+  artifactKey: Guid(0c3b4231bea7a4248a3e504cc330883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt4.shader using Guid(0c3b4231bea7a4248a3e504cc330883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57feb00765e90539000c6c026f1740d5') in 0.0007121 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.366705 seconds.
+  path: Assets/Rt4onesphere.shader
+  artifactKey: Guid(0c3b4231bea7a4248a3e504cc330883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt4onesphere.shader using Guid(0c3b4231bea7a4248a3e504cc330883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5736b6c08b72bd98dfdb6adf276a181e') in 0.0006373 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.920230 seconds.
+  path: Assets/Raytracer5.shader
+  artifactKey: Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raytracer5.shader using Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96cdf65600b0a6be40dd56d5dde0cd19') in 0.0006464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.948001 seconds.
+  path: Assets/Rt5twospheres.shader
+  artifactKey: Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt5twospheres.shader using Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82ac888433d680ff71091cf8e1e761d5') in 0.0007755 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.192130 seconds.
+  path: Assets/Raytracer6.shader
+  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Raytracer6.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff7198426fccf8b7d89da038c1620e23') in 0.0007751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.755535 seconds.
+  path: Assets/Rt6antialiasing.shader
+  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt6antialiasing.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8655f687f084c8a6b9d58748be23e74') in 0.0006621 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.219865 seconds.
+  path: Assets/Rt7diffusematerialt.shader
   artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Raytracer7.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82d40ff6919dd694217ba5591902bfbe') in 0.0011078 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Start importing Assets/Rt7diffusematerialt.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffb3676ab3f5d2a3d09367da2f8384f2') in 0.000824 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.523142 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4692a28e0b5113fb398c698b0ed34766') in 0.0006685 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3142.949475 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c98bf6f85e0e42402c4309d45e2c3de') in 0.0030258 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.848614 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '646dc293dc13b56cc5aab9b3eba098dc') in 0.0010049 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.276149 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3252430f2a034656bf5503dc7f84ea3b') in 0.0009035 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.437819 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d28684ed395d3585946cd3160e10dce') in 0.0007833 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.068439 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9020c467dad426c8b00387509c6ab0d5') in 0.0012435 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 502.435600 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45f00c5746776108805b43a8b9734197') in 0.0010736 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.989514 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7f3d9f170338422182808759270d491') in 0.0006539 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5008.195978 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e5570cfc097a7a665905852a6a082d') in 0.0059898 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.345354 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a640c178a55b5cdf6daf14108ee564d') in 0.0010314 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.848927 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4894f2fef11ec4abe6bc2b3512a46a9e') in 0.0009368 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.125122 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff9b0ca60b1adf9a0f0820dacd7f2ee6') in 0.0007144 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.365802 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8331e0d9f6109fbfb528ccddbfdd5406') in 0.0007414 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.833619 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5793955d10c82c1bf65256f62b01d6e8') in 0.0009125 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.758426 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa14e36403a92d111f17806944c61b83') in 0.0008016 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.108346 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e954085035b00427256f186da041907e') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.021287 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7207e4aef728b8a31731987d0d57b2ff') in 0.0007337 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.171107 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42170029cc8219ab3cf29205511ff20e') in 0.0007532 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.197178 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1008ca119b29d5c6ac32e39127894b51') in 0.0009537 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.307324 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f43770a5b82a43a04777cdc7fe7f18ee') in 0.0009835 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.728517 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '858b6e8aa272256aadcec8899f100561') in 0.0006793 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.531655 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef3050cf608972c42a400cfe0cd42421') in 0.0006854 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.365520 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e0197c7fa87fc7e5beceb9e33428c22') in 0.0006432 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.998297 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0514094fdf21651fea9141c176758b2') in 0.0009354 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.494132 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56eacfe841ad5c672200faedc667f670') in 0.0009914 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.028803 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e285033fc27a23616bf6a89bd599ee34') in 0.0011211 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.045523 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5081112176776bb8bbfc0e6fed9b721b') in 0.0007554 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.944296 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1469741c5cda751ce2ac843a530bb685') in 0.0009318 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.333620 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e3b0537f01c8b889353ecef438820f3') in 0.0010725 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.759072 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fde5465fb776908b4f1d72ed6597d215') in 0.0009916 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.325155 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad19aba9e91aa67931044fbe4ca9cf15') in 0.0008991 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.103512 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de475637b422d6761c6613f80edb4b59') in 0.0007644 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.834667 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b6bf3a00a99d5c69910c52a6ec73811') in 0.0006522 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.360604 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8de617fa5ba10072b00cb9c2692de73f') in 0.0009659 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.480951 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdf3ddd3a9a6805a4f9cc284e4c2032f') in 0.0010145 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.330126 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb325092d7105474f7345c1a738779bf') in 0.0007194 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.448998 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd450287925d040ea3a3d195b5a1c7851') in 0.0007354 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.258728 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c30c7d9e23d72b3e009c40154d115161') in 0.0006833 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.133139 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abf1a6110e738a90fa1910406803c8c2') in 0.001067 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.572664 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a86bc176bae9373e9b7a092c4978946') in 0.0009027 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.543295 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ccf322aab682663bfd670be3fdb40bd') in 0.0008949 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.687893 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '731db05b0fc948673a6aaf6df47d399b') in 0.0006769 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.930770 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11ce9202266364df47c2e75565fa9ee6') in 0.0008022 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.161074 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22288b0afc7f4f518a305a08b06901b0') in 0.00067 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1303.396635 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbb069966bede6bf2c64f03d5ec7768e') in 0.001069 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.956459 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8eaca1d04e8b5798d1da0f1cb5b5aa1') in 0.0008134 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.739934 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b8807ccbde1bf8ba24d4b7c958156e') in 0.0011664 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.937096 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e1c43111c8f09bdfa8fbd92965399c9') in 0.0014822 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.756654 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '271cba0feccaacdc822d0a4855714092') in 0.0009214 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.503700 seconds.
+  path: Assets/Rt7diffusemat.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffusemat.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c4a3d7da1ce66433cde1f96b15a21a9') in 0.0008027 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 882.209357 seconds.
+  path: Assets/material.mat
+  artifactKey: Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/material.mat using Guid(ca7b322bc1862694a8248973ff031112) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90dd18bf65ef2f9806e2b00e193ba159') in 0.3258022 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 771.764930 seconds.
+  path: Assets/Rt5twospheres.shader
+  artifactKey: Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt5twospheres.shader using Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb558a593bc08924e71ec5101102ecfc') in 0.0018281 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 0
 

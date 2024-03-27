@@ -15,8 +15,8 @@ Shader "Unlit/SingleColor"
 	[Toggle] _boolchooser("myBool", Range(0,1)) = 0  // [Toggle] creates a checkbox in gui and gives it 0 or 1
 	_floatxaxis("xAxis", Range(0,1)) = 0
 	_refractionIndex("Refraction Index", Range(0,3)) = 0
-	_maxbounces("max bounses", Range(0,100)) = 0
-	_raysprpixel("Rays per pixel", Range(10,1000)) = 1
+	_maxbounces("max bounses", Range(1,100)) = 10
+	_raysprpixel("Rays per pixel", Range(1,1000)) = 1
 	_camerapos("Camera position", Vector) = (0,0,0)
 	_cameralookatpos("Camera Look-at position", Vector) = (0,0,0)
 	_colorchooser("myColor", Color) = (1,0,0,1)
@@ -42,6 +42,7 @@ Shader "Unlit/SingleColor"
 	//sampler2D _texturechooser;
 
 	static const float infinity = 1.0 / 0.0;
+	float2 random_seed = float2(0.0, 0.0);
 
 		typedef vector <float, 3> vec3;  // to get more similar code to book
 		typedef vector <fixed, 3> col3;
@@ -66,23 +67,19 @@ Shader "Unlit/SingleColor"
 		return o;
 	}
 	
-	float rand(in float2 uv)
+	//returnerer en 'random' float mellom -0.0025 og 0.0025. ish
+	float rand()
 	{
-		float2 noise = (frac(sin(dot(uv, float2(12.9898, 78.233)*2.0)) * 43758.5453));
-		return abs(noise.x + noise.y) * 0.5;
+		random_seed += float2(0.1,0.1); //to make it different each time without input
+		float2 noise = (frac(sin(dot(random_seed, float2(12.9898, 78.233)*2.0)) * 43758.5453));
+		return (noise.x + noise.y) * 0.0025;
 	}
 
-	float clamp(float x, float min, float max)
+	//returnerer en vec3 med tre 'random' floats mellom 0 og 1. Normal som tas inn er allerede rett vei
+	vec3 random_on_hemisphere()
 	{
-        if (x < min) return min;
-        if (x > max) return max;
-        return x;
-    }
-
-	class camera
-	{
-		vec3 pos;
-	};
+		return normalize(vec3(rand(), rand(), rand()));
+	}
 
 	class ray
 	{
@@ -105,11 +102,6 @@ Shader "Unlit/SingleColor"
 		bool front_face;
 	};
 	
-	float lengthSqrt(vec3 v)
-	{
-		return dot(v,v);
-	}
-	
 	class sphere
 	{
 		void make(vec3 c, float r) {center = c; radius = r;}
@@ -117,12 +109,13 @@ Shader "Unlit/SingleColor"
 		bool hit(ray r, float ray_tmin, float ray_tmax, out hit_record rec)
 		{
 			vec3 oc = r._origin - center;
-			float a = lengthSqrt(r._direction);
+			float a = dot(r._direction, r._direction);
 			float half_b = dot(oc, r._direction);
-			float c = lengthSqrt(oc) - radius * radius;
-
+			float c = dot(oc, oc) - radius * radius;
 			float discriminant = half_b * half_b - a * c;
+
 			if (discriminant < 0) return false;
+			
 			float sqrtd = sqrt(discriminant);
 
 			float root = (-half_b - sqrtd) / a;
@@ -155,22 +148,44 @@ Shader "Unlit/SingleColor"
 		if (i == 3) { sph.center = vec3(-1, 0, -1); sph.radius = 0.5; sph.materialtype = 1; sph.matproperties.xyz = vec3(0.8, 0.8, 0.8);}
 	}
 
-	col3 ray_color(ray r)
+	bool world_hit(ray r, float min, float max, out hit_record rec)
 	{
+		hit_record temp_rec = (hit_record) 0;
+		bool found_hit = false;
+		float closest_so_far = max;
 		for (int i = 0; i < 2; i++)
 		{
-			hit_record rec = (hit_record) 0;
-
 			sphere s;
 			getsphere(i, s);
-
-			if (s.hit(r, 0, infinity, rec)) 
-				return 0.5 * (rec.normal + col3(1,1,1));		
+			if (s.hit(r, min, closest_so_far, temp_rec))
+			{
+				found_hit = true;
+				closest_so_far = temp_rec.t;
+				rec = temp_rec;
+			}
 		}
+		return found_hit;
+	}
+
+	col3 ray_color(ray r)
+	{
+		hit_record rec = (hit_record) 0;
+		col3 accumCol = {1,1,1};
+
+		while (world_hit(r, 0, infinity, rec) && _maxbounces > 0)
+		{
+			_maxbounces--;
+			vec3 randdir = rec.p + rec.normal + random_on_hemisphere(); 
+			r.make(rec.p, randdir - rec.p);
+			accumCol *= 0.5;
+		}
+			
+		if (_maxbounces == 0)
+			return col3(0,0,0);	
 		
 		vec3 unit_direction = normalize(r._direction);
 		float y = 0.5*(unit_direction.y + 1.0); 
-		return (1.0-y)*col3(1.0,1.0,1.0) + y*col3(0.5,0.7,1.0);
+		return accumCol * ((1.0-y)*col3(1.0,1.0,1.0) + y*col3(0.5,0.7,1.0));
 	}
 
 	fixed4 frag(v2f i) : SV_Target 
@@ -187,12 +202,11 @@ Shader "Unlit/SingleColor"
 		col3 col = {0,0,0};
 		for (int i = 0; i < _raysprpixel; i++)
 		{
-			float xrand = rand((x+i, y-i)) * 0.005;
-			float yrand = rand((y+i, x-i)) * 0.005;
-			r.make(origin, lower_left_corner + (xrand+x)*horizontal + (yrand+y)*vertical);
+			r.make(origin, lower_left_corner + (rand()+x)*horizontal + (rand()+y)*vertical);
 			col += ray_color(r);
 		}
 		col /= _raysprpixel;
+		//col = sqrt(col); //gamma
 		return fixed4(col,1); 
 	}
 

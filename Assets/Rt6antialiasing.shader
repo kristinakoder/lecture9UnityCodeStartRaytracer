@@ -72,18 +72,6 @@ Shader "Unlit/SingleColor"
 		return abs(noise.x + noise.y) * 0.5;
 	}
 
-	float clamp(float x, float min, float max)
-	{
-        if (x < min) return min;
-        if (x > max) return max;
-        return x;
-    }
-
-	class camera
-	{
-		vec3 pos;
-	};
-
 	class ray
 	{
 		void make(vec3 orig, vec3 dir) { _origin = orig; _direction = dir; } // constructors not supported in hlsl

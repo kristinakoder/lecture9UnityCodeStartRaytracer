@@ -69,7 +69,6 @@ Shader "Unlit/SingleColor"
 
 	class hit_record
 	{
-		void make() {p = vec3(0,0,0); normal = vec3(0,0,0); t = 0; front_face = false; }
 		void set_face_normal(ray r, vec3 outward_normal)
 		{
 			front_face = dot(r._direction, outward_normal) < 0;
@@ -135,8 +134,7 @@ Shader "Unlit/SingleColor"
 	{
 		for (int i = 0; i < 2; i++)
 		{
-			hit_record rec;
-			rec.make();
+			hit_record rec = (hit_record) 0;
 
 			sphere s;
 			getsphere(i, s);
