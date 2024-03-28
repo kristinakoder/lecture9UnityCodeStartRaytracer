@@ -1,4 +1,4 @@
-﻿
+﻿﻿
 // Fra https://docs.unity3d.com/Manual/SL-VertexFragmentShaderExamples.html
 //https://msdn.microsoft.com/en-us/library/windows/desktop/bb509640(v=vs.85).aspx
 //https://msdn.microsoft.com/en-us/library/windows/desktop/ff471421(v=vs.85).aspx
@@ -41,8 +41,8 @@ Shader "Unlit/SingleColor"
 	
 	//sampler2D _texturechooser;
 
-	static const float infinity = 1.0 / 0.0;
 	float2 random_seed = float2(0.0, 0.0);
+	float random_incr = 0;
 
 		typedef vector <float, 3> vec3;  // to get more similar code to book
 		typedef vector <fixed, 3> col3;
@@ -67,17 +67,17 @@ Shader "Unlit/SingleColor"
 		return o;
 	}
 	
-	//returnerer en 'random' float mellom -0.0025 og 0.0025. ish
 	float rand()
 	{
-		random_seed += float2(0.1,0.1); //to make it different each time without input
-		float2 noise = (frac(sin(dot(random_seed, float2(12.9898, 78.233)*2.0)) * 43758.5453));
-		return (noise.x + noise.y) * 0.0025;
+		random_incr += 0.01; 
+		float2 noise = (frac(sin(dot(float2(random_seed.x+random_incr,random_seed.y+random_incr), float2(12.9898, 78.233)*2.0)) * 43758.5453));
+		return abs(noise.x + noise.y) * 0.5;
 	}
 
 	//returnerer en random, normalisert vektor
 	vec3 random_on_hemisphere(vec3 normal)
 	{
+		//return normalize(vec3(rand(), rand(), rand()));
 		vec3 v = normalize(vec3(rand(), rand(), rand()));
 		return (dot(v, normal) > 0.0) ? v : -v;
 	}
@@ -173,7 +173,7 @@ Shader "Unlit/SingleColor"
 		hit_record rec = (hit_record) 0;
 		col3 accumCol = {1,1,1};
 
-		while (world_hit(r, 0, infinity, rec) && _maxbounces > 0)
+		while (world_hit(r, 0, 1000000, rec) && _maxbounces > 0)
 		{
 			_maxbounces--;
 			vec3 randdir = rec.p + rec.normal + random_on_hemisphere(rec.normal); 
@@ -198,16 +198,18 @@ Shader "Unlit/SingleColor"
 
 		float x = i.uv.x;
 		float y = i.uv.y;
+		random_seed = i.uv;
 		
 		ray r;
 		col3 col = {0,0,0};
 		for (int i = 0; i < _raysprpixel; i++)
 		{
-			r.make(origin, lower_left_corner + (rand()+x)*horizontal + (rand()+y)*vertical);
+			r.make(origin, lower_left_corner + ((0.003 * rand())+x)*horizontal + ((0.003 * rand())+y)*vertical);
 			col += ray_color(r);
 		}
 		col /= _raysprpixel;
-		//col = sqrt(col); //gamma
+		
+		col = sqrt(col); //gamma
 		return fixed4(col,1); 
 	}
 
