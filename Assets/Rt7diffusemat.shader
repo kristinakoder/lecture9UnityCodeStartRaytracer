@@ -42,7 +42,7 @@ Shader "Unlit/SingleColor"
 	//sampler2D _texturechooser;
 
 	float2 random_seed = float2(0.0, 0.0);
-	float random_incr = 0;
+	float random_incr = 0.0;
 
 		typedef vector <float, 3> vec3;  // to get more similar code to book
 		typedef vector <fixed, 3> col3;
@@ -69,16 +69,17 @@ Shader "Unlit/SingleColor"
 	
 	float rand()
 	{
-		random_incr += 0.01; 
 		float2 noise = (frac(sin(dot(float2(random_seed.x+random_incr,random_seed.y+random_incr), float2(12.9898, 78.233)*2.0)) * 43758.5453));
+		random_incr += 0.01; 
 		return abs(noise.x + noise.y) * 0.5;
 	}
 
 	//returnerer en random, normalisert vektor
 	vec3 random_on_hemisphere(vec3 normal)
 	{
-		//return normalize(vec3(rand(), rand(), rand()));
-		vec3 v = normalize(vec3(rand(), rand(), rand()));
+		vec3 v = 2.0 * vec3(rand(), rand(), rand()) - vec3(1.0, 1.0, 1.0);
+		v = normalize(v);
+		v *= rand();
 		return (dot(v, normal) > 0.0) ? v : -v;
 	}
 
@@ -173,12 +174,12 @@ Shader "Unlit/SingleColor"
 		hit_record rec = (hit_record) 0;
 		col3 accumCol = {1,1,1};
 
-		while (world_hit(r, 0, 1000000, rec) && _maxbounces > 0)
+		while (world_hit(r, 0.001, 1000000, rec) && _maxbounces > 0)
 		{
 			_maxbounces--;
-			vec3 randdir = rec.p + rec.normal + random_on_hemisphere(rec.normal); 
-			r.make(rec.p, randdir - rec.p);
-			accumCol *= 0.5;
+			vec3 randdir = rec.normal + random_on_hemisphere(rec.normal); 
+			r.make(rec.p, randdir);
+			accumCol *= 0.9;
 		}
 			
 		if (_maxbounces == 0)
@@ -209,7 +210,7 @@ Shader "Unlit/SingleColor"
 		}
 		col /= _raysprpixel;
 		
-		col = sqrt(col); //gamma
+		col = sqrt(col);
 		return fixed4(col,1); 
 	}
 

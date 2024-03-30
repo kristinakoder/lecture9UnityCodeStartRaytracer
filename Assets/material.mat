@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: material
-  m_Shader: {fileID: 4800000, guid: 22e575fb76a80a44194e380490d620fd, type: 3}
+  m_Shader: {fileID: 4800000, guid: e00bcb65739a050498a598c04542ff7c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -82,8 +82,8 @@ Material:
     - _boolchooser: 0
     - _floatchooser: 0
     - _floatxaxis: 0
-    - _maxbounces: 27
-    - _raysprpixel: 119
+    - _maxbounces: 70
+    - _raysprpixel: 385
     - _refractionIndex: 0
     - bl: 2
     m_Colors:
