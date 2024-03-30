@@ -74,13 +74,11 @@ Shader "Unlit/SingleColor"
 		return abs(noise.x + noise.y) * 0.5;
 	}
 
-	//returnerer en random, normalisert vektor
-	vec3 random_on_hemisphere(vec3 normal)
+	vec3 random_in_sphere()
 	{
 		vec3 v = 2.0 * vec3(rand(), rand(), rand()) - vec3(1.0, 1.0, 1.0);
 		v = normalize(v);
-		v *= rand();
-		return (dot(v, normal) > 0.0) ? v : -v;
+		return v * rand();
 	}
 
 	class ray
@@ -177,7 +175,7 @@ Shader "Unlit/SingleColor"
 		while (world_hit(r, 0.001, 1000000, rec) && _maxbounces > 0)
 		{
 			_maxbounces--;
-			vec3 randdir = rec.normal + random_on_hemisphere(rec.normal); 
+			vec3 randdir = rec.normal + random_in_sphere(); 
 			r.make(rec.p, randdir);
 			accumCol *= 0.9;
 		}
