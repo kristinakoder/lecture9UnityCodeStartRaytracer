@@ -148,10 +148,12 @@ Shader "Unlit/SingleColor"
 
 	void getsphere(int i, out sphere sph)
 	{
-		if (i == 0) { sph.center = vec3( 0, 0, -1); sph.radius = 0.5; sph.materialtype = 2; sph.matproperties.xyz = vec3(0.8, 0.3, 0.3); sph.fuzz = 1.5;}
+		if (i == 0) { sph.center = vec3( 0, 0, -1); sph.radius = 0.5; sph.materialtype = 0; sph.matproperties.xyz = vec3(0.1, 0.2, 0.5); sph.fuzz = 1.5;}
 		if (i == 1) { sph.center = vec3( 0,-100.5, -1); sph.radius = 100; sph.materialtype = 0; sph.matproperties.xyz = vec3(0.8, 0.8, 0.0); sph.fuzz = 0;}
-		if (i == 2) { sph.center = vec3( 1, 0, -1); sph.radius = 0.5; sph.materialtype = 1; sph.matproperties.xyz = vec3(0.8, 0.6, 0.2); sph.fuzz = 0.3;}
-		if (i == 3) { sph.center = vec3(-1, 0, -1); sph.radius = 0.5; sph.materialtype = 1; sph.matproperties.xyz = vec3(0.8, 0.8, 0.8); sph.fuzz = 1.0;}
+		if (i == 2) { sph.center = vec3( 1, 0, -1); sph.radius = 0.5; sph.materialtype = 1; sph.matproperties.xyz = vec3(0.8, 0.6, 0.2); sph.fuzz = 0.0;}
+		if (i == 4) { sph.center = vec3(-1, 0, -1); sph.radius = -0.4; sph.materialtype = 2; sph.matproperties.xyz = vec3(1.0, 1.0, 1.0); sph.fuzz = 1.5;}
+		if (i == 3) { sph.center = vec3(-1, 0, -1); sph.radius = 0.5; sph.materialtype = 2; sph.matproperties.xyz = vec3(1.0, 1.0, 1.0); sph.fuzz = 1.5;}
+
 	}
 
 	bool world_hit(ray r, float min, float max, out hit_record rec)
@@ -160,7 +162,7 @@ Shader "Unlit/SingleColor"
 		bool found_hit = false;
 		float closest_so_far = max;
 
-		for (int i = 0; i < 4; i++)
+		for (int i = 0; i < 5; i++)
 		{
 			sphere s;
 			getsphere(i, s);
@@ -182,6 +184,13 @@ Shader "Unlit/SingleColor"
 		return r_out_perp + r_out_parallel;
 	}
 
+	float reflectance(float cosine, float ref_idx)
+	{
+		float r0 = (1-ref_idx) / (1+ref_idx);
+		r0 = r0*r0;
+		return r0 + (1-r0)*pow((1 - cosine), 5);
+	}
+
 	bool scatter(ray r, hit_record rec, out ray scattered)
 	{
 		if (rec.mat == 0)
@@ -197,11 +206,20 @@ Shader "Unlit/SingleColor"
 		}
 		else
 		{
-			float refraction_ratio = rec.front_face ? (1.0/_refractionIndex) : _refractionIndex;
+			float refraction_ratio = rec.front_face ? (1.0/rec.fuzz) : rec.fuzz;
 			vec3 unit_direction = normalize(r._direction);
-			vec3 refracted = refract(unit_direction, rec.normal, refraction_ratio);
+			float cos_theta = min(dot(-unit_direction, rec.normal), 1.0);
+			float sin_theta = sqrt(1.0 - cos_theta*cos_theta);
 
-			scattered.make(rec.p, refracted);
+			bool cannot_refract = refraction_ratio * sin_theta > 1.0;
+			vec3 direction;
+
+			if (cannot_refract || reflectance(cos_theta, refraction_ratio) > rand())
+				direction = reflect(unit_direction, rec.normal);
+			else
+				direction = refract(unit_direction, rec.normal, refraction_ratio);
+
+			scattered.make(rec.p, direction);
 			return true;
 		}
 	}
