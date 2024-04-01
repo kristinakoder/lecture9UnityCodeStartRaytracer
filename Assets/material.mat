@@ -82,8 +82,8 @@ Material:
     - _boolchooser: 0
     - _floatchooser: 0
     - _floatxaxis: 0
-    - _maxbounces: 38
-    - _raysprpixel: 67
+    - _maxbounces: 89
+    - _raysprpixel: 279
     - _refractionIndex: 0
     - bl: 2
     m_Colors:
