@@ -516,3 +516,523 @@ Received Import Request.
 Start importing Assets/kd.shader using Guid(ee2b9d2d77fbf3a40ba7ad7c3a6ad19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d7ef1d18e33007a4a8665335a63ecf5') in 0.0028784 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 73.187930 seconds.
+  path: Assets/Rt8metal 1.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8metal 1.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b09afd1667e53cbac54cee2d5d0af255') in 0.0018889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.537598 seconds.
+  path: Assets/Rt8dielec.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8dielec.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9bc55cb72e9234a50ac5d31f10fe850') in 0.0012308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.436152 seconds.
+  path: Assets/Rt8dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bd6b8774b9cded01fc838601ce2f4f7') in 0.0021934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.478762 seconds.
+  path: Assets/Rt8metal.shader
+  artifactKey: Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8metal.shader using Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '886b72ef80f3096d14047136434d8d96') in 0.0011792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.659869 seconds.
+  path: Assets/Rt8metal.shader
+  artifactKey: Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8metal.shader using Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '949880841b52ecccc97cb95d177b3763') in 0.0011364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.308353 seconds.
+  path: Assets/Rt8dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3ebd9e13e21f5fdcc5073b62ae5bdad') in 0.0014216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.242613 seconds.
+  path: Assets/Rt9dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt9dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bbe3913da47b0b46800c9eefd550027') in 0.0012395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.729605 seconds.
+  path: Assets/Rt9dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt9dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c491757ae9ec4978d633fc9501a64ef') in 0.0012338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 184.827409 seconds.
+  path: Assets/Rt9dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt9dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb2d46264e4ba2bf6c272da4ef5e4246') in 0.0019653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2617.528146 seconds.
+  path: Assets/Rt9dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt9dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3252a7a13d0965da4c604e100f63c9e') in 0.0077125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.548022 seconds.
+  path: Assets/Rt9dielectrics 1.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt9dielectrics 1.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20eb3b82bf8466301a6775cbc5108c02') in 0.0015929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.938252 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '332ab0b33b951286fc3ee63fda04b3fc') in 0.0020547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.846546 seconds.
+  path: Assets/Rt8metal.shader
+  artifactKey: Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8metal.shader using Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c2045d5802d462594a97a657cfe2671') in 0.001153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 584.199218 seconds.
+  path: Assets/Rt9dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt9dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d3179e85c545c75b79cdf949477f4c4') in 0.0032304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.704275 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af4bf0bce954ffb33274ea15ca7ba86e') in 0.0020694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.715887 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49d067e8f18825c3e9b3a11b05ad2599') in 0.0013167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.079102 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63107f2bb6468c07a42038d1de728675') in 0.0012356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.363540 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9f099e3935a289aed1b75bb29ca91b2') in 0.0013213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.145292 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8504dd3b546df54dd6243ec09744ed6b') in 0.0020247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.817261 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02500d4f91543343c53a858f0f4ee8b1') in 0.0016148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.192695 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0481a5e1977716bad484720fd7950f65') in 0.0014519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 459.659260 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e161bd5fefe2441f353a71647c122f6') in 0.002153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.168864 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd25ac5d23d33f9aa9dfcda9915d4b578') in 0.0021329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.730843 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fb4a1ff95cf6d64a4fd860d990d3b1b') in 0.0011744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1202.595529 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03007841bd31cd8d22c55f5cf3316b1e') in 0.0016387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.355658 seconds.
+  path: Assets/Rt10movecamera 1.shader
+  artifactKey: Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 1.shader using Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eee69f45399d6e2fa395718a5196a2b') in 0.0012674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.672711 seconds.
+  path: Assets/Rt10movecamera 1.shader
+  artifactKey: Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 1.shader using Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '198aa8951b981ae4f2acb76d96c75a89') in 0.0016582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.359191 seconds.
+  path: Assets/Rt10movecamera 1.shader
+  artifactKey: Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 1.shader using Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee062e8b55a2878751db3dbfeec9d458') in 0.0016973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.545851 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c09ede6c646f225e0598eb44a2d2bf18') in 0.0025819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 751.721987 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '134d5283396e787b7a9a452aea012dd2') in 0.0024913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 515.189955 seconds.
+  path: Assets/Rt10movecamera 1.shader
+  artifactKey: Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 1.shader using Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfd869872104f363ac91a0c013601b3f') in 0.0033128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 231.568614 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '304f762dbb1fae5bc588754ecc74b495') in 0.0029447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 825.668294 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3e9f7ca6c3b0700f788b9a9bb4c6db6') in 0.0019931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.110191 seconds.
+  path: Assets/Rt10movecamera 1.shader
+  artifactKey: Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 1.shader using Guid(a8c98b5a830d991478994125397a7944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b4c17a076bf9ecc9e29a7ab6f66760e') in 0.0015167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1213.831350 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60d14a270ecf5b16352c6eeb04d98fe3') in 0.0019002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 509.348749 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd51012e4080195521ad41dddf3cb18f6') in 0.0017929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.545761 seconds.
+  path: Assets/Rt10movecamera 2.shader
+  artifactKey: Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 2.shader using Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1148b62900fcf0645c37f2f2968bb20e') in 0.0013891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.942399 seconds.
+  path: Assets/Rt10movecamera 2.shader
+  artifactKey: Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 2.shader using Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08513d5c0198925ff0cb2b06c065d2bb') in 0.0019846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.466924 seconds.
+  path: Assets/Rt10movecamera 2.shader
+  artifactKey: Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 2.shader using Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '718ffd22ed0df53bff64ec92e864af6f') in 0.0030757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.466269 seconds.
+  path: Assets/Rt10movecamera 2.shader
+  artifactKey: Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 2.shader using Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f2e8dc3903dd75f3a0a9772232ca837') in 0.0032458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1029.474045 seconds.
+  path: Assets/Rt10movecamera 2.shader
+  artifactKey: Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 2.shader using Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57704cd8d1fc2e1ef7415d54e423eac3') in 0.0033301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 373.690451 seconds.
+  path: Assets/Rt10movecamera 2.shader
+  artifactKey: Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 2.shader using Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57baf2fc317fc645b571c7ac621ab50b') in 0.0019547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.013753 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3323c99dcd562c8efb36fd79131ac33b') in 0.0013451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.067189 seconds.
+  path: Assets/Rt10movecamera 2.shader
+  artifactKey: Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera 2.shader using Guid(6aba4d2e9dfa9fd48877a19e4bff7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '296a2c26535b8e374f55171604a787ac') in 0.0027034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.299401 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed1ab922ba877362af80f066e603abc9') in 0.0025261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.754846 seconds.
+  path: Assets/Rt0green.shader
+  artifactKey: Guid(6630806745dd5144cb45fe09e4bdb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt0green.shader using Guid(6630806745dd5144cb45fe09e4bdb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '872cc55572814adb9980f09f1a25a487') in 0.0037709 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.293413 seconds.
+  path: Assets/Rt1redgreen.shader
+  artifactKey: Guid(a72f071cbdeb06c499490613c8d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt1redgreen.shader using Guid(a72f071cbdeb06c499490613c8d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dcc0071b48549611dbdf76250f503ec') in 0.0030083 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.765861 seconds.
+  path: Assets/Rt2sky.shader
+  artifactKey: Guid(d03fa3b2335e1c04986c6d7975871278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt2sky.shader using Guid(d03fa3b2335e1c04986c6d7975871278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d72ed4cbdc5abc97cae13543c097f9') in 0.001973 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.380255 seconds.
+  path: Assets/Rt3redcircle.shader
+  artifactKey: Guid(4f748360cdec75142b9ca8c9adffeb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt3redcircle.shader using Guid(4f748360cdec75142b9ca8c9adffeb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '719892260331d9b22ffcf388847fb6f3') in 0.0019481 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.022462 seconds.
+  path: Assets/Rt4onesphere.shader
+  artifactKey: Guid(0c3b4231bea7a4248a3e504cc330883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt4onesphere.shader using Guid(0c3b4231bea7a4248a3e504cc330883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbb62672d91cde0020f19d2a9d7721ed') in 0.002441 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.549167 seconds.
+  path: Assets/Rt5twospheres.shader
+  artifactKey: Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt5twospheres.shader using Guid(a5d27fbd22ebf7c46b5f0749faabf073) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ec01cd99ab29599f26b518553f0b467') in 0.0018845 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.563813 seconds.
+  path: Assets/Rt6antialiasing.shader
+  artifactKey: Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt6antialiasing.shader using Guid(8ea44780ca70fd944bffa42558f84251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96d7ebe924c2984b6504f34967fbba74') in 0.0070134 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.191204 seconds.
+  path: Assets/Rt7diffuse.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffuse.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cdf68ae0f6e0203df35772a58f79b64') in 0.0010239 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.695936 seconds.
+  path: Assets/Rt7diffuse.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffuse.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3689fd1ccb65f1bd440702cfa44adfa9') in 0.0008008 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.441245 seconds.
+  path: Assets/Rt7diffuse.shader
+  artifactKey: Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt7diffuse.shader using Guid(393d6c72ffd7cc94ca2e6cebad199922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c4f6ad21018ebafafd8a9ae1d1ad813') in 0.0008968 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.712887 seconds.
+  path: Assets/Rt8metal.shader
+  artifactKey: Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8metal.shader using Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29839904d2c15e5ae7d896141809af07') in 0.0014865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.928505 seconds.
+  path: Assets/Rt8metal.shader
+  artifactKey: Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8metal.shader using Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '253ff86a669662781187a895b35bdce6') in 0.0014156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.484253 seconds.
+  path: Assets/Rt8metal.shader
+  artifactKey: Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt8metal.shader using Guid(3dfd7edb2d353a7428fdc2452365a471) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aacb46197b7097ea1fcdfef7fd2dd604') in 0.0012531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.322084 seconds.
+  path: Assets/Rt9dielectrics.shader
+  artifactKey: Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt9dielectrics.shader using Guid(7f80d36799b9a6040a7b1ef05fa2654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f84317af5b92f5f6813d00dd4923bdd6') in 0.0050552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.291987 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62abcd96620876ec6c97df97653df828') in 0.0013118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.474472 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '964526ed6b1e21b271bc0bb442e9de3d') in 0.0020275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.093748 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0766f2721ef96ee241c05bde773e653') in 0.0017025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.431196 seconds.
+  path: Assets/Rt0green.shader
+  artifactKey: Guid(6630806745dd5144cb45fe09e4bdb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt0green.shader using Guid(6630806745dd5144cb45fe09e4bdb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69d91bdb36624ba502288cb4dd2d5b12') in 0.0189809 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.340216 seconds.
+  path: Assets/Rt1redgreen.shader
+  artifactKey: Guid(a72f071cbdeb06c499490613c8d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt1redgreen.shader using Guid(a72f071cbdeb06c499490613c8d126c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c895dd523cea858631cefbec4b17be9') in 0.0390686 seconds
+Number of updated asset objects reloaded before import = 6Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.347316 seconds.
+  path: Assets/Rt10movecamera.shader
+  artifactKey: Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rt10movecamera.shader using Guid(3768ffaeeb6f99b46b480f04fc95abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c652b8618e8dfb8e080f32c27661bb3') in 0.0015295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+

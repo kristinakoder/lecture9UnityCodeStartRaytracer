@@ -1,40 +1,12 @@
-﻿
-// Fra https://docs.unity3d.com/Manual/SL-VertexFragmentShaderExamples.html
-//https://msdn.microsoft.com/en-us/library/windows/desktop/bb509640(v=vs.85).aspx
-//https://msdn.microsoft.com/en-us/library/windows/desktop/ff471421(v=vs.85).aspx
-// rand num generator http://gamedev.stackexchange.com/questions/32681/random-number-hlsl
-// http://www.reedbeta.com/blog/2013/01/12/quick-and-easy-gpu-random-numbers-in-d3d11/
-// https://docs.unity3d.com/Manual/RenderDocIntegration.html
-// https://docs.unity3d.com/Manual/SL-ShaderPrograms.html
-
-Shader "Unlit/SingleColor"
+﻿Shader "Unlit/SingleColor"
 {
-	Properties
-	{
-	// inputs from gui, NB remember to also define them in "redeclaring" section
-	[Toggle] _boolchooser("myBool", Range(0,1)) = 0  // [Toggle] creates a checkbox in gui and gives it 0 or 1
-	_floatchooser("myFloat", Range(-1,1)) = 0
-	_colorchooser("myColor", Color) = (1,0,0,1)
-	_vec4chooser("myVec4", Vector) = (0,0,0,0)
-	//_texturechooser("myTexture", 2D) = "" {} // "" er for bildefil, {} er for options
-	}
-
 		SubShader{ Pass	{
 			
 	CGPROGRAM
 		#pragma vertex vert
 		#pragma fragment frag
 
-	// redeclaring gui inputs
-	int _boolchooser;
-	float _floatchooser;
-	float4 _colorchooser;// alternative use fixed4;  range of –2.0 to +2.0 and 1/256th precision. (https://docs.unity3d.com/Manual/SL-DataTypesAndPrecision.html)
-	float4 _vec4chooser;
-	//sampler2D _texturechooser;
-
-	static const float infinity = 1.0 / 0.0;
-
-		typedef vector <float, 3> vec3;  // to get more similar code to book
+		typedef vector <float, 3> vec3;
 		typedef vector <fixed, 3> col3;
 	
 	struct appdata
@@ -61,10 +33,10 @@ Shader "Unlit/SingleColor"
 
 	class ray
 	{
-		void make(vec3 orig, vec3 dir) { _origin = orig; _direction = dir; } // constructors not supported in hlsl
+		void make(vec3 orig, vec3 dir) { _origin = orig; _direction = dir; }
 		vec3 at(float t) { return _origin + _direction*t; }
-		vec3 _origin;			// private members not supported, these public members will 
-		vec3 _direction;			// be accessed directly from outside 
+		vec3 _origin;
+		vec3 _direction;
 	};
 
 	class hit_record
@@ -139,7 +111,7 @@ Shader "Unlit/SingleColor"
 			sphere s;
 			getsphere(i, s);
 
-			if (s.hit(r, 0, infinity, rec)) 
+			if (s.hit(r, 0.001, 1000000, rec)) 
 				return 0.5 * (rec.normal + col3(1,1,1));		
 		}
 		

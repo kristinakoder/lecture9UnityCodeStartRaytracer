@@ -1,13 +1,4 @@
-﻿
-// Fra https://docs.unity3d.com/Manual/SL-VertexFragmentShaderExamples.html
-//https://msdn.microsoft.com/en-us/library/windows/desktop/bb509640(v=vs.85).aspx
-//https://msdn.microsoft.com/en-us/library/windows/desktop/ff471421(v=vs.85).aspx
-// rand num generator http://gamedev.stackexchange.com/questions/32681/random-number-hlsl
-// http://www.reedbeta.com/blog/2013/01/12/quick-and-easy-gpu-random-numbers-in-d3d11/
-// https://docs.unity3d.com/Manual/RenderDocIntegration.html
-// https://docs.unity3d.com/Manual/SL-ShaderPrograms.html
-
-Shader "Unlit/SingleColor"
+﻿Shader "Unlit/SingleColor"
 {
 		SubShader{ Pass	{
 			
@@ -15,7 +6,7 @@ Shader "Unlit/SingleColor"
 		#pragma vertex vert
 		#pragma fragment frag
 
-		typedef vector <float, 3> vec3;  // to get more similar code to book
+		typedef vector <float, 3> vec3;
 		typedef vector <fixed, 3> col3;
 	
 	struct appdata
@@ -38,9 +29,6 @@ Shader "Unlit/SingleColor"
 		return o;
 	}
 	
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////
 	fixed4 frag(v2f i) : SV_Target
 	{
 		float x = i.uv.x;
@@ -49,9 +37,7 @@ Shader "Unlit/SingleColor"
 
 		return fixed4(col,1); 
 	}
-////////////////////////////////////////////////////////////////////////////////////
-
-
+	
 ENDCG
 
 }}}

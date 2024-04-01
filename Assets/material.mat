@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: material
-  m_Shader: {fileID: 4800000, guid: 7f80d36799b9a6040a7b1ef05fa2654e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3768ffaeeb6f99b46b480f04fc95abbf, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -82,19 +82,24 @@ Material:
     - _boolchooser: 0
     - _floatchooser: 0
     - _floatxaxis: 0
-    - _max_bounces: 4
-    - _maxbounces: 100
-    - _rays_per_pixel: 500
+    - _fov: 90
+    - _max_bounces: 10
+    - _maxbounces: 28
+    - _move_sphere: 0
+    - _rays_per_pixel: 100
     - _raysprpixel: 437
-    - _refractionIndex: 0
+    - _ref_index: 1.5
+    - _refractionIndex: 1.5
     - bl: 2
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Cowlor: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _cameralookatpos: {r: 0, g: 0, b: 0, a: 1}
-    - _camerapos: {r: 0, g: 0, b: 0, a: 1}
-    - _colorchooser: {r: 0.25453886, g: 0.40485558, b: 0.69182384, a: 1}
+    - _cam_pos: {r: -2, g: 2, b: 1, a: 1}
+    - _cameralookatpos: {r: 0, g: 0, b: -1, a: 0}
+    - _camerapos: {r: -2, g: 2, b: 1, a: 0}
+    - _colorchooser: {r: 0.19105248, g: 0.323732, b: 0.57861626, a: 1}
+    - _lookat_pos: {r: 0, g: 0, b: -1, a: 1}
     - _vec4chooser: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
