@@ -28,6 +28,7 @@ Shader "Unlit/SingleColor"
 	CGPROGRAM
 		#pragma vertex vert
 		#pragma fragment frag
+		#include "Resources/common/Random.hlsl"
 
 	// redeclaring gui inputs
 	int _boolchooser;
@@ -41,24 +42,21 @@ Shader "Unlit/SingleColor"
 	
 	//sampler2D _texturechooser;
 
-	float2 random_seed = float2(0.0, 0.0);
-	float random_incr = 0.0;
-
-		typedef vector <float, 3> vec3;  // to get more similar code to book
-		typedef vector <fixed, 3> col3;
+	typedef vector <float, 3> vec3;  // to get more similar code to book
+	typedef vector <fixed, 3> col3;
 	
 	struct appdata
 	{
 		float4 vertex : POSITION;
 		float2 uv : TEXCOORD0;
 	};
-
+	
 	struct v2f
 	{
 		float2 uv : TEXCOORD0;
 		float4 vertex : SV_POSITION;
 	};
-
+	
 	v2f vert(appdata v)
 	{
 		v2f o;
@@ -66,6 +64,9 @@ Shader "Unlit/SingleColor"
 		o.uv = v.uv;
 		return o;
 	}
+
+	float2 random_seed = float2(0.0, 0.0);
+	float random_incr = 0.0;
 	
 	float rand()
 	{
@@ -159,6 +160,7 @@ Shader "Unlit/SingleColor"
 		hit_record temp_rec = (hit_record) 0;
 		bool found_hit = false;
 		float closest_so_far = max;
+
 		for (int i = 0; i < 4; i++)
 		{
 			sphere s;
@@ -173,43 +175,39 @@ Shader "Unlit/SingleColor"
 		return found_hit;
 	}
 
-	bool scatter(ray r, hit_record rec, out vec3 attenuation, out ray scattered)
+	bool scatter(ray r, hit_record rec, out ray scattered)
 	{
 		if (rec.mat == 0)
 		{
-			vec3 target = rec.p + rec.normal + random_in_sphere();
-			scattered.make(rec.p, target - rec.p);
-			attenuation = rec.matproperties;
+			scattered.make(rec.p, rec.normal + random_in_sphere());
 			return true;
 		}
-		if (rec.mat == 1)
+		else
 		{
 			vec3 reflected = reflect(normalize(r._direction), rec.normal);
-			scattered.make(rec.p, reflected);
-			attenuation = rec.matproperties;
+			scattered.make(rec.p, reflected + rec.fuzz * random_in_sphere());
 			return (dot(scattered._direction, rec.normal) > 0);
 		}
-		return false;
 	}
 
 	col3 ray_color(ray r)
 	{
 		hit_record rec = (hit_record) 0;
 		col3 accumCol = {1,1,1};
+		int i = _maxbounces;
 
-		while (world_hit(r, 0.001, 1000000, rec) && _maxbounces > 0)
+		while (world_hit(r, 0.001, 1000000, rec) && i > 0)
 		{
 			ray scattered;
-			col3 attenuated;
-			scatter(r, rec, attenuated, scattered);
+			scatter(r, rec, scattered);
 			
-			accumCol *= attenuated;
+			accumCol *= rec.matproperties;
 			r = scattered;
 
-			_maxbounces--;
+			i--;
 		}
 			
-		if (_maxbounces == 0)
+		if (i == 0)
 			return col3(0,0,0);	
 		
 		vec3 unit_direction = normalize(r._direction);
@@ -227,10 +225,11 @@ Shader "Unlit/SingleColor"
 		float x = i.uv.x;
 		float y = i.uv.y;
 		random_seed = i.uv;
-		
+		//set_seed(i.vertex.x * i.vertex.y + i.uv.x * i.uv.y); // sets the seed in the random number generator
+
 		ray r;
 		col3 col = {0,0,0};
-		for (int i = 0; i < _raysprpixel; i++)
+		for (int j = 0; j < _raysprpixel; j++)
 		{
 			r.make(origin, lower_left_corner + ((0.003 * rand())+x)*horizontal + ((0.003 * rand())+y)*vertical);
 			col += ray_color(r);
